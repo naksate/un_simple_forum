@@ -1,0 +1,140 @@
+/* Réinitialisation des marges et des bordures */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style général du corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Titre principal de la page */
+h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Style des formulaires */
+form {
+    background: white;
+    padding: 15px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Titre de chaque section de formulaire */
+h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Style des labels de formulaire */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+/* Style des champs de texte et des champs de sélection */
+/* Style des champs de texte et des champs de sélection */
+input[type="text"],
+select {
+    width: 60%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;  /* Bordure légère autour des champs */
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+
+/* Style du bouton de soumission et réinitialisation */
+input[type="submit"], input[type="reset"] {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+}
+
+/* Effet au survol des boutons */
+input[type="submit"], input[type="reset"] {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 1px;  /* Réduction de la marge entre les boutons */
+}
+
+input[type="reset"]:hover {
+    background-color: #e53935;
+}
+
+/* Affichage des catégories demandées, listes */
+ul {
+    list-style-type: none; /* Retire les puces de la liste */
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+}
+
+/* Contenu de la liste */
+li {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;  /* Enlever la bordure des éléments de la liste */
+    border-radius: 4px;
+    width: 60%;
+    margin: 0 auto 10px auto;
+}
+
+/* Style des paragraphes */
+p {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px auto;
+    border: none;  /* Enlever la bordure */
+    border-radius: 4px;
+    width: 60%;
+    text-align: center;
+}
+
+strong {
+    color: #4CAF50;
+}
+
+/* Style des liens */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Espace entre les sections */
+section {
+    margin-bottom: 100px;
+}

@@ -1,0 +1,172 @@
+/* Style général du body */
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Container principal */
+.container {
+    width: 80%;
+    max-width: 1000px;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header de la page */
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* Style des paragraphes */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #4b4b4b;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Conteneur pour le formulaire */
+form {
+    background-color: #fff;
+    padding: 30px;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+/* Styles des labels et inputs */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #FF4500; /* Rouge Reddit */
+    outline: none;
+}
+
+/* Bouton de soumission */
+input[type="submit"] {
+    background-color: #FF4500; /* Rouge Reddit */
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff6a30; /* Couleur un peu plus claire au survol */
+}
+
+/* Liste des commentaires */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 700px; /* Aligné avec le formulaire */
+    margin: 0 auto; /* Centre la liste */
+    text-align: center;
+}
+
+/* Style des éléments de liste */
+ul li {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto; /* Centre chaque élément */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 700px; /* Même largeur que le formulaire */
+    text-align: left;
+    font-size: 16px;
+    color: #FF4500; /* Rouge Reddit pour le texte en gras */
+}
+
+
+/* Titre des commentaires */
+ul li p {
+    margin: 10px 0;
+}
+
+
+/* Section commentaires */
+h4 {
+    font-size: 1.8em;
+    color: #333;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Ajouter des marges aux éléments */
+h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Design du formulaire pour éviter les bords trop serrés */
+form label,
+form input[type="text"],
+form textarea {
+    margin-bottom: 15px;
+}
+
+/* Section "Ajouter un commentaire" en bas */
+.comment-section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Espaces pour les sections "Auteur", "Contenu", etc. */
+.post-details {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.post-details p {
+    margin-bottom: 15px;
+}
+
